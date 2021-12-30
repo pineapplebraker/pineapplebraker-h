@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Danmaku Demo</title>
+	<style type="text/css">
+	body {
+		background-color: rgb(0,0,0);
+	}
+
+	#inputs {
+		position: absolute;
+		top: 0px;
+	}
+
+	label {
+		margin: 2px;
+		width: 40px;
+		font-size: 16px;
+		color: rgb(250,250,255);
+	}
+
+	input[type="text"] {
+		margin: 2px;
+		width: 40px;
+		font-size: 16px;
+		color: rgb(250,250,255);
+		background-color: rgba(0,0,48);
+		border-color: rgba(64,64,255);
+	}
+
+	input[type="button"] {
+		margin: 2px;
+		width: 30px;
+		font-size: 18px;
+		color: rgb(250,250,255);
+		background-color: rgba(24,0,0);
+		border-color: rgba(192,64,64);
+	}
+
+	#glcanvas {
+		position: absolute;
+		top: 32px;
+	}
+	</style>
+	<script src="GL.js"></script>
+</head>
+<body>
+	<div id="inputs">
+	</div>
+	<canvas id="glcanvas" width="512" height="512"></canvas>
+	<img id="textureImage01" src="texture01.png" style="display: none;">
+</body>
+</html>
